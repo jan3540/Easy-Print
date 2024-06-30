@@ -21,7 +21,6 @@ python3 --version
 
 ```bash
 ./FilePrinter.py -n <file_or_directory_to_exclude> -o <output_file_name>
-`
 ```
 
 替换为要从列表中排除的文件或目录以及输出文件名称。<file_or_directory_to_exclude><output_file_name>
