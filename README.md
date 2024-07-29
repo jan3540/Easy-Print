@@ -14,13 +14,15 @@ FilePrinter.py 是一个用于列出指定目录中文件及其内容的 Python 
 yum -y insatll python3
 python3 --version
 ```
+-------
+7.29更
 
 ## 用法
 
 使用以下命令格式运行脚本：
 
 ```bash
-./FilePrinter.py -n <file_or_directory_to_exclude> -o <output_file_name>
+./FilePrinter.py -d  <dir_copy>-n <file_or_directory_to_exclude> -o <output_file_name>
 ```
 ## 添加到环境变量（任何路径都可以使用脚本）
 
