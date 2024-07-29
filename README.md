@@ -22,6 +22,12 @@ python3 --version
 ```bash
 ./FilePrinter.py -n <file_or_directory_to_exclude> -o <output_file_name>
 ```
+## 添加到环境变量（任何路径都可以使用脚本）
+
+```bash
+echo 'export PATH=$PATH:/root/FilePrinter' >> ~/.bashrc
+source ~/.bashrc
+```
 
 替换为要从列表中排除的文件或目录以及输出文件名称。<file_or_directory_to_exclude><output_file_name>
 ![Usage](https://github.com/jan3540/FilePrinter---/assets/124026673/c9693eda-63d7-48db-8149-862d07220144)
