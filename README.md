@@ -35,4 +35,8 @@ echo 'export PATH=$PATH:/root/FilePrinter' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-![Usage](https://github.com/jan3540/FilePrinter---/assets/124026673/c9693eda-63d7-48db-8149-862d07220144)
+## linux用法
+![image](images/Usage_linux.png)
+
+## windows用法
+![image](images/Usage_windows.png)
