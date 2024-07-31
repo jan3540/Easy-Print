@@ -20,11 +20,13 @@ def list_files(directory, exclude, output_file):
                     f.write("{}\n".format(file_path))
                     f.write("*********************\n")
                     try:
+                        # 以 UTF-8 编码读取文件内容
                         with open(file_path, 'r', encoding='utf-8') as file:
                             f.write(file.read())
                             f.write("\n\n")
                     except (UnicodeDecodeError, OSError):
                         try:
+                            # 尝试以 GBK 编码读取文件内容
                             with open(file_path, 'r', encoding='gbk') as file:
                                 f.write(file.read())
                                 f.write("\n\n")
