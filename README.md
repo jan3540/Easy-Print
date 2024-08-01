@@ -1,6 +1,6 @@
-# FilePrinter--文件内容打印
+# Easy-Print--简印
 
-FilePrinter.py 是一个用于打印指定目录中文件及其内容的 Python 脚本。支持排除指定的文件或目录，并将结果输出到指定的输出文件中。
+Easy-Print是一个用于打印指定目录中文件及其内容的 Python 脚本。支持排除指定的文件或目录，并将结果输出到指定的输出文件中。
 
 ## 功能特点
 
@@ -22,16 +22,16 @@ python3 --version
 使用以下命令格式运行脚本：
 
 ```bash
-FilePrinter.py
+Easy-Print.py
 ```
 也可以指定参数
 ```bash
-FilePrinter.py -d  <dir_copy>-n <file_or_directory_to_exclude> -o <output_file_name>
+Easy-Print.py -d  <dir_copy>-n <file_or_directory_to_exclude> -o <output_file_name>
 ```
 ## 添加到环境变量（任何路径都可以使用脚本）
 
 ```bash
-echo 'export PATH=$PATH:/root/FilePrinter' >> ~/.bashrc
+echo 'export PATH=$PATH:/root/Easy-Print' >> ~/.bashrc
 source ~/.bashrc
 ```
 
