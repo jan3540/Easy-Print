@@ -38,7 +38,7 @@ def main():
     parser = argparse.ArgumentParser(description="列出文件及其内容")
     parser.add_argument('-d', '--directory', default='.', help="开始列出文件的目录")
     parser.add_argument('-n', '--no-print', nargs='+', default=[], help="要排除的文件或目录")
-    parser.add_argument('-o', '--output-file', default='Fileprinter.txt', help="输出文件名")
+    parser.add_argument('-o', '--output-file', default='easy-print.txt', help="输出文件名")
 
     # 解析参数
     args = parser.parse_args()
@@ -54,7 +54,7 @@ def main():
 if __name__ == "__main__":
     # 没有参数时执行默认行为
     if len(sys.argv) == 1:
-        list_files(os.getcwd(), [], 'Fileprinter.txt')
-        print("输出已写入到 Fileprinter.txt")
+        list_files(os.getcwd(), [], 'easy-print.txt')
+        print("输出已写入到 easy-print.txt")
     else:
         main()
